@@ -15,6 +15,12 @@ class MainActivity : AppCompatActivity() {
 
         // くじを引くボタンを押した時の処理
         binding.drawLotsButton.setOnClickListener {
+            // ランダムな数値を変数に代入
+
+            // ランダムな数値をLogcatに出力
+
+            // ImageViewに表示する画像を切り替える
+            
         }
     }
 
