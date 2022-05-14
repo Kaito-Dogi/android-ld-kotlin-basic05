@@ -16,7 +16,13 @@ class MainActivity : AppCompatActivity() {
 
         // くじを引くボタンを押した時の処理
         binding.drawLotsButton.setOnClickListener {
+            // ランダムな数値を変数に代入
             val randomNum: Int = Random.nextInt(5)
+
+            // ランダムな数値をLogcatに出力
+            println(randomNum)
+
+            // ImageViewに表示する画像を切り替える
             binding.resultImage.setImageResource(getOmikujiResult(randomNum))
         }
     }
