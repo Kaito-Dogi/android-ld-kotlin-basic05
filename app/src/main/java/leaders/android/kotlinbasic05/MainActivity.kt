@@ -12,5 +12,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        // くじを引くボタンを押した時の処理
+        binding.drawLotsButton.setOnClickListener {
+        }
     }
+
+    // おみくじの画像を返すメソッド
+
+    // drawableリソースの配列を宣言
 }
